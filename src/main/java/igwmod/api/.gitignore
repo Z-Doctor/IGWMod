@@ -1,0 +1,12 @@
+/BlockWikiEvent.java
+/CraftingRetrievalEvent.java
+/EntityWikiEvent.java
+/FurnaceRetrievalEvent.java
+/IGWSupportNotifier.java
+/IRecipeIntegrator.java
+/ItemWikiEvent.java
+/ITextInterpreter.java
+/PageChangeEvent.java
+/README.txt
+/VariableRetrievalEvent.java
+/WikiRegistry.java
