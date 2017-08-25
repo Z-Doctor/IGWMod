@@ -1,7 +1,10 @@
 In-Game Wiki Mod
 =======
 
-ModJam 3 mod, the In-Game Wiki Mod. This mod adds a Graphical User Interface (GUI) into the game. You can open this with the 'i' key (by default).
+The In-Game Wiki Mod was a ModJam 3 mod originally developed by MineMararten. However, it seems maintenance for this mod was discontinued. I personal pushed a 1.11 version, but the autor never merged the mod, so it is possible that they have stopped modding. However because of the license, I am able to free update and distribute this mod as long as I provide the same license as the original.
+
+
+This mod adds a Graphical User Interface (GUI) into the game. You can open this with the 'i' key (by default).
 
 If you're hovering over a block in the world when you press the 'i' key you'll automatically be navigated to the page about this block. Likewise for entities.
 
@@ -12,22 +15,7 @@ The info in the files can be plain text. However, there are some commands with w
 =======
 Developping with In-Game Wiki Mod
 =======
-If you want to add In-Game Wiki Mod support to your mod, it's really easy to include the mod to your development environment, as the mod has a maven.
-
-In your build.gradle, add:
-
-	repositories {
-		maven {
-			name = "IGW"
-			url = "http://maven.k-4u.nl/"
-		}
-	}
-
-	dependencies{
-		compile "igwmod:IGW-Mod-1.7.10:1.1.0-13:userdev"
-	}
-
-It should be clear that the version number used in the 'compile' is an example, to see which versions you can use, go to http://maven.k-4u.nl/igwmod/IGW-Mod-1.7.10/
+At this time this mod no longer has a maven, but if you want to develop for with IGW, the sources will be included in each release and the project is open source.
 
 =======
 Contributing to In-Game Wiki Mod
